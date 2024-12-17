@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zomato</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+        #header_image{
+            position: relative;
+            width: 100vw;
+            height: 600px;
+            background-image: linear-gradient(to right, rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url("81f3ff974d82520780078ba1cfbd453a1583259680.avif");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header{
+            width: 100vw;
+            height: 60px;
+        }
+        .nav_menu{
+            width: 100vw;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .zomato{
+            display: block;
+            font-weight: bolder;
+            color: white;
+            text-align: center;
+            font-size: 68px;
+            margin: 0;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .Discover{
+            font-size: 40px;
+            color: white;
+            margin-left: 298px;
+        }
+        .search-box{
+            height: 50px;
+            width: 300px;
+            margin-left: 90px;
+            border-radius: 10px;
+        }
+        .search-btn{
+            height: 50px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        .imagecard{
+            margin-top: 40px;
+            margin-left: 250px;
+            border-radius: 10px;
+        }
+        .imaged1{
+            margin-top: 20px;
+            margin-left: 270px;
+        }
+        .imaged2{
+            margin-top: 20px;
+            margin-left: 250px;
+        }
+        .imagedescrition{
+            display: flex;
+        }
+        .collections{
+            margin-left: 250px;
+            margin-top: 50px;
+        }
+        .foods{
+            margin-top: 30px;
+            margin-left: 250px;
+        }
+        .mainsub{
+            margin-top: 30px;
+         }
+        .sub1{
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid rgb(229, 221, 221);
+            margin-left: 230px;
+        }
+        .sub2{
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid rgb(229, 221, 221);
+        }
+        .sub3{
+            height: 80px;
+            width: 400px;
+            background-color: white;
+            border-radius: 10px;
+            border: 1px solid rgb(229, 221, 221);
+        }
+        .form{
+            height: 500px;
+            width: 500px;
+            background-color: white;
+            margin-top: 80px;
+            margin-left: 300px;
+        }
+        #footer{
+    margin-top: 5px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+.footer1{
+    height: 80px;
+    width: 800px;
+    background-color: rgb(54, 54, 54);
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.firstfooter{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.p{
+    margin-top: 10px;
+}
+.firstfooter1{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.firstfooterdiv{
+    display: flex;
+}
+</style>
+</head>
+<body>
+    <div id="header_image">
+        <header>
+            <div class="d-flex justify-content-center">
+                <div class="nav_menu">
+                    <p class="float-left text-white m-0 m-3">Get the App</p>
+                    <p class="float-right text-white m-0 mt-3 h4 nav-link">Investor Relations</p>
+                    <p class="float-right text-white m-0 mt-3 h4 nav-link">Add restaurant</p>
+                    <p class="float-right text-white m-0 mt-3 h4 nav-link">Log in</p>
+                    <p class="float-right text-white m-0 mt-3 h4 nav-link">Sign up</p>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="d-flex justify-content-center header-flex">
+                <p class="zomato">zomato</p>
+            </div>
+            <div>
+                <p class="Discover">Discover the best food & drinks in Thrissur</p>
+            </div>
+            <div class="d-flex justify-content-center mt-4">
+                <input type="text" placeholder="search a place" class="search-box">
+                <input type="text" placeholder="Search for restaurant, cuisine or a dish" class="search-btn">
+            </div>
+        </div>
+    </div>
+    <div class="imagecard">
+        <img src="./e5b8785c257af2a7f354f1addaf37e4e1647364814.avif" alt="" width="500px" height="200px">
+        <img src="./d026b357feb0d63c997549f6398da8cc1647364915.avif" alt="" width="500px" height="200px">
+    </div>
+    <div class="imagedescrition">
+        <div class="imaged1">
+            <h4>order online</h4>
+            <p>Stay home and oredr to your doorstep</p>
+        </div>
+        <div class="imaged2">
+            <h4>Dining</h4>
+            <p>View the citys favourite dining venues</p>
+        </div>
+    </div>
+    <div class="collections">
+        <h1>Collections</h1>
+        <p style="font-size: 20px;">Explore curated lists of top restaurants, cafes, pubs, and bars in Thrissur, based on trends<span style="color: red;margin-left: 100px;">All collections in Thrissur</span></p>
+    </div>
+    <div class="foods">
+        <img src="./idiyappam-and-egg-roast-1722423312_959d58a2e3ae159807dc.webp" alt="" height="300px">
+        <img src="./ecec46ffb5bc20bebe0857c47f630fc5_1535354925.avif" alt="" height="300px">
+        <p id="f1">Great Breakfast<span style="margin-left: 200px;">Brilliant Biryanis</span></p>
+    </div>
+    <div>
+        <p style="font-size: 40px;margin-left: 240px; margin-top: 80px;">Popular localities in and around <span style="font-weight: bolder;">Thrissur</span></p>
+    </div>
+    <div class="mainsub">
+        <div class="sub1"><P style="font-size: 25px; margin-left: 10px;">poothole<br><p style="margin-left: 10px;">192 place</p></P</div>
+        <div class="sub2"><P style="font-size: 25px; margin-left: 10px;">chalakudi<br><p style="margin-left: 10px;">156 place</p></P</div>
+        <div class="sub3"><P style="font-size: 25px; margin-left: 10px;">perigavu<br><p style="margin-left: 10px;">120 place</p></P</div>
+    </div>
+    <div class="form">
+        <p style="font-size: 50px;">Get the Zomato app</p>
+        <p>We will send you a link, open it on your phone to download<br>the app</p>
+        <input type="radio">Email<input type="radio" style="margin-left: 30px;">Phone<br>
+        <input type="email" placeholder="Email" style="height: 50px;width: 300px;margin-top: 10px;"><input type="text" placeholder="phonenumber" style="height: 50px;width: 300px;margin-top: 10px;">
+    </div>
+    <div id="footer"><h3>Explore options near me</h3></div>
+ <div class="mainfooter">
+    <div class="footer1">Popular Cuisines Near Me</div>
+    <div class="footer1">Popular Restaurant Types Near me</div>
+    <div class="footer1">Top Restaurant Chains</div>
+    <div class="footer1">Cities We Deliver To</div>
+</div>
+<div class="firstfooterdiv">
+    <div class="firstfooter">
+        <p class="p"><u>Who We Are</u></p>
+        <P class="p"><u>Blog</u></P>
+        <p class="p"><u>Work With Us</u></p>
+        <p class="p"><u>Investor Relations</u></p>
+    </div>
+    <div class="firstfooter1">
+        <p class="p"><u>Privacy</u></p>
+        <P class="p"><u>Security</u></P>
+        <p class="p"><u>terms</u></p>
+        <p class="p"><u>presskit</u></p>
+    </div>
+    <div class="firstfooter1">
+        <p class="p"><u>Report Fraud</u></p>
+        <P class="p"><u>Press Kit</u></P>
+        <p class="p"><u>Contact Us</u></p>
+        <p class="p"><u>Blinkit</u></p>
+    </div>
+    <div class="firstfooter1">
+        <p class="p"><u>Hyperpure</u></p>
+        <P class="p"><u>Zomaland</u></P>
+        <p class="p"><u>District</u></p>
+    </div>
+</div>
+<div>
+    <h1 style="margin-top: 10px;font-family: Verdana, Geneva, Tahoma, sans-serif;">Zomato</h1>
+</div>
+</body>
+</html>
